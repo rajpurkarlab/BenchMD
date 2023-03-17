@@ -1,0 +1,8 @@
+# @package _group_
+loss: cross_entropy
+metric: accuracy
+
+name: mros
+batch_size: 32
+num_workers: 8
+

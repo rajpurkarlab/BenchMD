@@ -1,0 +1,6 @@
+loss: binary_cross_entropy
+metric: aggregate_metric_auroc
+
+name: rsna
+batch_size: 32
+num_workers: 8
