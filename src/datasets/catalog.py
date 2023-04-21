@@ -33,7 +33,7 @@ DATASET_DICT = {
     'isic2019': isic2019.ISIC2019,
     'isic2020': isic2020.ISIC2020,
     'ddi': ddi.ddi,
-    'HAM10000': HAM10000.HAM10000,
+    'ham10000': HAM10000.HAM10000,
     'pad_ufes_20': pad_ufes_20.pad_ufes_20,
     
     # ECG
@@ -63,7 +63,7 @@ TRANSFER_DATASETS = [
     'mimic-cxr',
     #dermatology.
     'ddi',
-    'HAM10000',
+    'ham10000',
     'isic2020',
     'pad_ufes_20',
     'isic2019',

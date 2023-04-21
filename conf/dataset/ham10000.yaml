@@ -2,6 +2,6 @@
 loss: cross_entropy
 metric: auroc
 
-name: HAM10000
+name: ham10000
 batch_size: 64
 num_workers: 8

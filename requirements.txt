@@ -26,3 +26,4 @@ h5py
 pylidc
 bs4
 mne
+SimpleITK
