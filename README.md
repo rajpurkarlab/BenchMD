@@ -142,11 +142,13 @@ Feel free to email Kathryn Wantlin (kw2960@princeton.edu) or open an issue in th
 ## Citation
 
 If you are using BenchMD, or are using our code in your research, please cite our paper:
->@article{wantlin2023benchmd,
-  title={BenchMD: A Benchmark for Modality-Agnostic Learning on Medical Modalities and Datasets.},
-  author={Wantlin, Kathryn and Wu, Chenwei and Huang, S.C. and Banerjee, Oishi and Dadabhoy, Farah and Mehta, Veeral V and Han, Ryan W and Cao, Fang and Narayan, Raja R. and Colak, Errol and Adamson, Adewole and Heacock, Laura and Tison, Geoffrey H. and Tamkin, Alex and Pranav Rajpurkar},
-  journal={arXiv preprint},
-  year={2023}
+>@misc{wantlin2023benchmd,
+      title={BenchMD: A Benchmark for Modality-Agnostic Learning on Medical Images and Sensors}, 
+      author={Kathryn Wantlin and Chenwei Wu and Shih-Cheng Huang and Oishi Banerjee and Farah Dadabhoy and Veeral Vipin Mehta and Ryan Wonhee Han and Fang Cao and Raja R. Narayan and Errol Colak and Adewole Adamson and Laura Heacock and Geoffrey H. Tison and Alex Tamkin and Pranav Rajpurkar},
+      year={2023},
+      eprint={2304.08486},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
 }
 
 
