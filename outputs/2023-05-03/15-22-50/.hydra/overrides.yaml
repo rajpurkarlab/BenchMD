@@ -1,5 +1,0 @@
-- test=True
-- dataset=
-- exp.base_dir=/home/ubuntu/tutorial/
-- exp.name=tutorial-test-ecg
-- ckpt=/home/ubuntu/tutorial/tutorial-ecg-mae-lineval/best_model_epoch0.ckpt

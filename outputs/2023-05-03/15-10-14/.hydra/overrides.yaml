@@ -1,6 +1,0 @@
-- dataset=
-- trainer.max_epochs=
-- finetune_size=
-- exp.base_dir=
-- exp.name=
-- ckpt=
