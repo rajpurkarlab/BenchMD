@@ -1,0 +1,5 @@
+- dataset=ptbxl
+- trainer.max_steps=2000
+- algorithm=emix
+- exp.base_dir=/home/ubuntu/tutorial/
+- exp.name=tutorial-derm-emix

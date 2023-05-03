@@ -1,0 +1,5 @@
+- dataset=ptbxl
+- trainer.max_epochs=1
+- exp.base_dir=/home/ubuntu/tutorial/
+- exp.name=tutorial-ecg-mae-lineval
+- ckpt=/home/ubuntu/tutorial/tutorial-ecg-mae/epoch14-step1999.ckpt

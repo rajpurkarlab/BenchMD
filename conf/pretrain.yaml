@@ -1,6 +1,6 @@
 algorithm: emix
 shed_frac: 0.85
-data_root: /home/ubuntu/2022-spr-benchmarking/src/datasets/
+data_root: /home/ubuntu/BenchMD/src/datasets/
 gpus: 0
 
 exp:

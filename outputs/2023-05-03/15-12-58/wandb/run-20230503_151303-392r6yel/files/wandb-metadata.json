@@ -1,0 +1,30 @@
+{
+    "os": "Linux-5.15.0-1015-aws-x86_64-with-glibc2.10",
+    "python": "3.8.13",
+    "heartbeatAt": "2023-05-03T15:13:03.583102",
+    "startedAt": "2023-05-03T15:13:03.119611",
+    "docker": null,
+    "gpu": "NVIDIA A10G",
+    "gpu_count": 4,
+    "cpu_count": 48,
+    "cuda": null,
+    "args": [
+        "dataset=ptbxl",
+        "trainer.max_epochs=1",
+        "finetune_size=medium",
+        "exp.base_dir=/home/ubuntu/tutorial/",
+        "exp.name=tutorial-ecg-mae-finetune",
+        "ckpt=/home/ubuntu/tutorial/tutorial-ecg-mae/epoch14-step1999.ckpt"
+    ],
+    "state": "running",
+    "program": "transfer.py",
+    "git": {
+        "remote": "https://github.com/rajpurkarlab/BenchMD",
+        "commit": "d24f2aeea37dd5167209e5fe20b9bae067cab11d"
+    },
+    "email": null,
+    "root": "/home/ubuntu/BenchMD",
+    "host": "ip-10-0-27-105",
+    "username": "ubuntu",
+    "executable": "/home/ubuntu/.conda/envs/dabs2/bin/python"
+}

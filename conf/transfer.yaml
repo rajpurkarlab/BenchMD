@@ -1,11 +1,11 @@
 ckpt: null
 finetune_size: null
 test: False
-data_root: /home/ubuntu/2022-spr-benchmarking/src/datasets
+data_root: /home/ubuntu/BenchMD/src/datasets
 gpus: 0
 
 exp:
-  base_dir: /home/ubuntu/2022-spr-benchmarking/benchmark_results/
+  base_dir: /home/ubuntu/res/
   name: ???
 
 trainer:

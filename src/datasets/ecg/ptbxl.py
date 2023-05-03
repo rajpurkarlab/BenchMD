@@ -107,7 +107,7 @@ class ptbxl(data.Dataset):
     def load_measurements(self, index):
         i = index
         recording = ptbxl._read_recording(self.root, self.subject_data.iloc[i]["patient"], self.REC_DIMS)
-        label = self.subject_data.iloc[i]['label'].astype(np.int)
+        label = self.subject_data.iloc[i]['label']
         return recording, label
 
     def __getitem__(self, index):

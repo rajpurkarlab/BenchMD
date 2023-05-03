@@ -1,0 +1,163 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.13.4
+    framework: huggingface
+    huggingface_version: 4.24.0
+    is_jupyter_run: false
+    is_kaggle_kernel: true
+    m:
+    - 1: trainer/global_step
+      6:
+      - 3
+    - 1: test_loss
+      5: 1
+      6:
+      - 1
+    - 1: test_metric
+      5: 1
+      6:
+      - 1
+    - 1: epoch
+      5: 1
+      6:
+      - 1
+    python_version: 3.8.13
+    start_time: 1683127374.912334
+    t:
+      1:
+      - 1
+      - 5
+      - 9
+      - 11
+      - 41
+      - 49
+      - 50
+      - 53
+      - 55
+      - 63
+      2:
+      - 1
+      - 5
+      - 9
+      - 11
+      - 41
+      - 49
+      - 50
+      - 53
+      - 55
+      - 63
+      3:
+      - 7
+      - 13
+      - 23
+      4: 3.8.13
+      5: 0.13.4
+      6: 4.24.0
+      8:
+      - 2
+      - 5
+ckpt:
+  desc: null
+  value: /home/ubuntu/tutorial/tutorial-ecg-mae-lineval/best_model_epoch0.ckpt
+data_root:
+  desc: null
+  value: /home/ubuntu/BenchMD/src/datasets
+dataset.batch_size:
+  desc: null
+  value: 64
+dataset.loss:
+  desc: null
+  value: cross_entropy
+dataset.metric:
+  desc: null
+  value: auroc
+dataset.name:
+  desc: null
+  value: ptbxl
+dataset.num_workers:
+  desc: null
+  value: 8
+exp.base_dir:
+  desc: null
+  value: /home/ubuntu/tutorial/
+exp.name:
+  desc: null
+  value: tutorial-test-ecg
+finetune_size:
+  desc: null
+  value: None
+gpus:
+  desc: null
+  value: 0
+model.kwargs.depth:
+  desc: null
+  value: 12
+model.kwargs.dim:
+  desc: null
+  value: 256
+model.kwargs.dim_head:
+  desc: null
+  value: 64
+model.kwargs.dropout:
+  desc: null
+  value: 0.1
+model.kwargs.emb_dropout:
+  desc: null
+  value: 0.1
+model.kwargs.embed_dim:
+  desc: null
+  value: 256
+model.kwargs.heads:
+  desc: null
+  value: 8
+model.kwargs.mlp_dim:
+  desc: null
+  value: 512
+model.kwargs.out_dim:
+  desc: null
+  value: 128
+model.kwargs.pool:
+  desc: null
+  value: mean
+model.name:
+  desc: null
+  value: transformer
+optim.lr:
+  desc: null
+  value: 0.0001
+optim.momentum:
+  desc: null
+  value: 0.9
+optim.name:
+  desc: null
+  value: adam
+optim.weight_decay:
+  desc: null
+  value: 0.0001
+test:
+  desc: null
+  value: true
+trainer.gradient_clip_val:
+  desc: null
+  value: 0
+trainer.limit_val_batches:
+  desc: null
+  value: 1.0
+trainer.max_epochs:
+  desc: null
+  value: 100
+trainer.precision:
+  desc: null
+  value: 16
+trainer.seed:
+  desc: null
+  value: 0
+trainer.val_check_interval:
+  desc: null
+  value: 1.0
+trainer.weights_summary:
+  desc: null
+  value: top

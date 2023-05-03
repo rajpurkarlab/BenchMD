@@ -27,3 +27,4 @@ pylidc
 bs4
 mne
 SimpleITK
+ecg-plot
