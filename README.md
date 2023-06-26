@@ -1,4 +1,4 @@
-# BenchMD: A Benchmark for Modality-Agnostic Learning on Medical Images and Sensors
+# BenchMD: A Benchmark for Unified Learning on Medical Images and Sensors [[ArXiv]](https://arxiv.org/abs/2304.08486)
 
 This repository contains the code for BenchMD, a benchmark for modality-agnostic self-supervised learning on medical image and sensor data. The BenchMD benchmark consists of 19 real-world medical datasets across 7 medical modalities. Models for each modality are first trained on a source dataset, and successful models will achieve high performance when evaluated on out-of-distribution target datasets in the same modality.
 
